@@ -15,9 +15,7 @@ It models neurons arranged in modules with excitatory and inhibitory types, simu
 
 ## Demo Simulation
 
-<p>
-  <img src="images/learning_animation.gif" width="500">
-</p>
+<img src="images/learning_animation.gif" width="400">
 
 ## Project Structure
 
