@@ -14,6 +14,7 @@ On every forward pass, active connections (weights) are chosen randomly, mimicki
 
 ## Project Structure
 
+```
 DynamicMaskNet/
 │
 ├── README.md
@@ -22,6 +23,7 @@ DynamicMaskNet/
 ├── example_run.py # Demo and example run
 ├── requirements.txt
 └── data/ # (Optional) for sample data
+```
 
 ## Quickstart
 
