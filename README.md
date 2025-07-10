@@ -1,28 +1,32 @@
-# DynamicMaskNet
+# BrainNet
 
-**Biologically Inspired Dynamic Connectivity Neural Network Demo**
+**Biologically Inspired Spiking Neural Network Simulation**
 
-DynamicMaskNet is a minimal PyTorch experiment simulating dynamic, brain-inspired connectivity in artificial neural networks.  
-On every forward pass, active connections (weights) are chosen randomly, mimicking how real neural circuits change their effective connectivity depending on context, input, or noise.
+BrainNet is a minimal Python experiment simulating a brain-inspired spiking neural network with dynamic connectivity.  
+It models neurons arranged in modules with excitatory and inhibitory types, simulates spike propagation with biologically plausible delays, and supports visualization and learning demos.
 
 ## Features
 
-- Dynamic masking in each layer (random connectivity per forward pass)
-- PyTorch implementation, easily extendable
-- Visualizes masks and activation patterns
-- Compare with standard dense (fully connected) layers
+- Spiking neural network simulation using Numpy and scikit-learn
+- Modular network structure with excitatory and inhibitory neurons
+- Biologically inspired spike delays and refractory periods
+- Animation and visualization of spike propagation and learning (in separate modules)
+- Interactive learning demos to understand sequence learning via spike-driven plasticity
 
 ## Project Structure
 
 ```
-DynamicMaskNet/
+BrainNet/
 │
+├── brainnet/
+│ ├── init.py
+│ ├── model.py # Core network building and spiking simulation
+│ ├── animation.py # Visualization and animation utilities
+│
+├── example_run.py # Basic simulation run example
+├── example_learn.py # Interactive learning demo with visualization
 ├── README.md
-├── dynamic_mask_net.py # Main network code
-├── visualize.py # Visualization tools
-├── example_run.py # Demo and example run
-├── requirements.txt
-└── data/ # (Optional) for sample data
+└── requirements.txt
 ```
 
 ## Quickstart
@@ -32,18 +36,25 @@ DynamicMaskNet/
 pip install -r requirements.txt
 ```
 
-### 2. Run the example:
-```py
+### 2. Run a basic spiking network simulation:
+```sh
 python example_run.py
 ```
 
+### 3. Run the interactive learning demo:
+```sh
+python example_learn.py
+```
 
-## Example Output
 
-- Every run uses a new random connectivity mask.
-- Masks and output activations are displayed for each run.
+## What you can learn
+How spiking activity propagates through a biologically inspired network
 
----
+Effects of excitatory and inhibitory neurons on dynamics
 
-**Feel free to extend this project, use structured or learned masks, or compare to classic networks!**
+Sequence learning by strengthening connections via spike timing-dependent plasticity
+
+Visualization of network connectivity and spike propagation over time
+
+**Feel free to explore, extend, and experiment with BrainNet to better understand dynamic neural computation!**
 
