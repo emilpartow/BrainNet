@@ -13,6 +13,12 @@ It models neurons arranged in modules with excitatory and inhibitory types, simu
 - Animation and visualization of spike propagation and learning (in separate modules)
 - Interactive learning demos to understand sequence learning via spike-driven plasticity
 
+## Demo Image
+
+<div style="width:70%; height:70%; overflow:hidden;">
+  <img src="images/learning_animation.gif" style="margin-bottom:-800px; margin-top:-800px;">
+</div>
+
 ## Project Structure
 
 ```
