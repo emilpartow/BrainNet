@@ -1,12 +1,12 @@
-# BrainNet
+# SpikingNetworkSimulation
 
 **Biologically Inspired Spiking Neural Network Simulation**
 
-BrainNet is a minimal Python experiment simulating a brain-inspired spiking neural network with dynamic connectivity.  
+Minimal Python experiment simulating a brain-inspired spiking neural network with dynamic connectivity.  
 It models neurons arranged in modules with excitatory and inhibitory types, simulates spike propagation with biologically plausible delays, and supports visualization and learning demos.
+Visualizes how spiking activity propagates through a biologically inspired network under the effects of excitatory and inhibitory neurons.
 
 ## Features
-
 - Spiking neural network simulation using Numpy and scikit-learn
 - Modular network structure with excitatory and inhibitory neurons
 - Biologically inspired spike delays and refractory periods
@@ -51,12 +51,6 @@ python example_run.py
 ```sh
 python example_learn.py
 ```
-
-
-## What you can learn
-How spiking activity propagates through a biologically inspired network
-
-Effects of excitatory and inhibitory neurons on dynamics
 
 Sequence learning by strengthening connections via spike timing-dependent plasticity
 
