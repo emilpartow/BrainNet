@@ -22,7 +22,7 @@ Visualizes how spiking activity propagates through a biologically inspired netwo
 ## Project Structure
 
 ```
-BrainNet/
+SpikingNetworkSimulation/
 │
 ├── brainnet/
 │ ├── init.py
