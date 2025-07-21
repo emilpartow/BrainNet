@@ -56,5 +56,5 @@ Sequence learning by strengthening connections via spike timing-dependent plasti
 
 Visualization of network connectivity and spike propagation over time
 
-**Feel free to explore, extend, and experiment with BrainNet to better understand dynamic neural computation!**
+**Feel free to explore, extend, and experiment with SpikingNetworkSimulation!**
 
